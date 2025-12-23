@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            ////Multiply Three Number
+            ////Multiply Three Number...
             //int num = 3;
             //int mul = 1;
             //List<int> val = new List<int>();
