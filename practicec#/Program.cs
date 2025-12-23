@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             ////Multiply Three Number...
-            //int num = 3;
+            //int num = 3;  
             //int mul = 1;
             //List<int> val = new List<int>();
             //for(int i=0;i<num;i++)
