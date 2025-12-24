@@ -4,6 +4,8 @@
     {
         static void Main(string[] args)
         {
+            //--------------24-12-2025-------------
+
             ////Multiply Three Number...
             //int num = 3;  
             //int mul = 1;
@@ -21,18 +23,6 @@
             //Console.WriteLine("Multiplication of three no is : "+mul);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
             //// Swap two numbers...
             //Console.WriteLine("enter frist no: ");
             //int num1 = int.Parse(Console.ReadLine());
@@ -45,9 +35,6 @@
             //Console.WriteLine("---OUTPUT---");
             //Console.WriteLine($"NUM 1 IS :{num1}");
             //Console.WriteLine($"NUM 2 IS :{num2}");
-
-
-
 
 
             //Console.WriteLine("This is Sharnitha...");
