@@ -6,7 +6,7 @@
         {
             //--------------24-12-2025-------------
 
-            ////Multiply Three Number...
+            ////Multiply Three Numbers...
             //int num = 3;  
             //int mul = 1;
             //List<int> val = new List<int>();
