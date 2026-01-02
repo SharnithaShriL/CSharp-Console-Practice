@@ -1,4 +1,7 @@
-﻿using System.Drawing;
+﻿using System.ComponentModel;
+using System.Drawing;
+using System.Net.Http.Headers;
+using System.Security.Cryptography.X509Certificates;
 
 namespace practicec_
 {
@@ -6,11 +9,87 @@ namespace practicec_
     {
         static void Main(string[] args)
         {
+            //--------------30-12-2025-------------
+
+            //Console.WriteLine("enter first number:");
+            //int num1 = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("enter second number:");
+            //int num2 = int.Parse(Console.ReadLine());
+            //Program obj = new Program();
+            //int res = obj.Adding(num1, num2);
+            //Console.WriteLine(res);
+
+            Console.WriteLine("Enter num1: ");
+            int num1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter num2: ");
+            int num2 = int.Parse(Console.ReadLine());
+            Program obj = new Program();
+            int vv = obj.findval(num1, num2);
+            Console.WriteLine(vv);
+        }
+        public int findval(int first,int second)
+        {
+            int res = 0;
+
+            if (first < second)
+            {
+                res = first - second;
+                return Math.Abs(res);
+            }
+            else if (first > second)
+            {
+                res = 2 * (first - second);
+                return Math.Abs(res);
+            }
+            else
+            {
+                return 0;
+            }
+
+        }
+
+
+        public int Adding(int first, int second)
+        {
+            int sum = 0;
+            sum = first + second;
+            int product = 0;
+
+            if (first == second)
+            {
+                product = sum * 3;
+                return product;
+            }
+            else
+            {
+                return sum;
+            }
+        }
+    }
+}
+
+
+           
+            
+
+
+
+
+
+
+
+
+            //Console.WriteLine("Enter string:");
+            //string str = Console.ReadLine();
+            //Console.WriteLine("enter char that to added in the string: ");
+            //char letter = Char.Parse(Console.ReadLine());
+
+
+            //Console.WriteLine("THE ANSWER IS .....");
+            //Console.WriteLine(letter + str + letter);
+
             //--------------29-12-2025-------------
-
-
-
-
             //Console.WriteLine("Enter 1st integer");
             //int num1 = int.Parse(Console.ReadLine());
             //Console.WriteLine("Enter 2nd integer");
@@ -216,6 +295,3 @@ namespace practicec_
             //Console.WriteLine("This is Sharnitha...");
             //Console.WriteLine("Sum"+(1 + 2));
             //Console.WriteLine("Divide"+(10 / 5));
-        }
-    }
-}
