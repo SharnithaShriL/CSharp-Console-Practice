@@ -28,7 +28,11 @@ namespace practicec_
             //bb.rotate_array();
             //bb.first_last();
             //bb.middle_element();
-            bb.palindrome();
+            //bb.palindrome();
+            _07_01_2026 aa = new _07_01_2026();
+            //aa.find_odd_number();
+            //aa.missing_element();
+            aa.strictly_increasing();
 
         }
     }
