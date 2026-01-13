@@ -32,7 +32,18 @@ namespace practicec_
             _07_01_2026 aa = new _07_01_2026();
             //aa.find_odd_number();
             //aa.missing_element();
-            aa.strictly_increasing();
+            //aa.strictly_increasing();
+            _09_01_2025 cc = new _09_01_2025();
+            //cc.sum_of_mat();
+            //cc.sum_all_mat();
+            //cc.negative_mat();
+            _13_01_2026 dd = new _13_01_2026();
+            //dd.mul_arr();
+            //dd.fin_min_val();
+            //dd.code_string_val();
+            //dd.count_specific();
+            //dd.check_up_low();
+            dd.remove_first_last();
 
         }
     }
