@@ -43,7 +43,20 @@ namespace practicec_
             //dd.code_string_val();
             //dd.count_specific();
             //dd.check_up_low();
-            dd.remove_first_last();
+            //dd.remove_first_last();
+            _14_01_2025 ee = new _14_01_2025();
+            //ee.order_alphabet();
+            //ee.check_odd_even();
+            //ee.n_th();
+            //ee.ascii_func();
+            //ee.check_plural();
+            //ee.sum_square_array();
+            //ee.int_string();
+            // ee.convert_arr_str();
+            _16_01_2026 ff = new _16_01_2026();
+            //ff.get_two_digit_num();
+            //ff.remove_non_letter_chars();
+            ff.remove_vowles();
 
         }
     }

@@ -173,6 +173,5 @@ namespace practicec_
             string finalres = new string(res);
             Console.WriteLine(finalres);
         }
-
     }
 }
