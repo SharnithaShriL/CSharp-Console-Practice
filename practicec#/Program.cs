@@ -56,7 +56,12 @@ namespace practicec_
             _16_01_2026 ff = new _16_01_2026();
             //ff.get_two_digit_num();
             //ff.remove_non_letter_chars();
-            ff.remove_vowles();
+            //ff.remove_vowles();
+            _20_01_2026 gg = new _20_01_2026();
+            //gg.check_lower_case_indicies();
+            //gg.cumulative_sum_array();
+            //gg.count_lett_digt();
+            gg.count_postive_negative();
 
         }
     }

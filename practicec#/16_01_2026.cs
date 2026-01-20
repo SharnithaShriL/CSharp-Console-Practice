@@ -76,6 +76,7 @@ namespace practicec_
                     {
                         continue;
                     }
+
                     else
                     {
                         new_arr[i] = char_arr[i];
