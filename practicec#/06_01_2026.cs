@@ -13,7 +13,7 @@ namespace practicec_
         //Check 'w' Appears 1-3 Times
         public void check_w()
         {
-            Console.WriteLine("Enter string; ");
+            Console.WriteLine("Enter stringgg; ");
             string sen_check = Console.ReadLine();
             string res = sentence_w_check(sen_check);
             Console.WriteLine(res);
