@@ -12,7 +12,7 @@ namespace practicec_
         public void sum_digits()
         {
             ///Sum of Digits in Integer
-            Console.WriteLine("Enter number..: ");
+            Console.WriteLine("Enter number.sharnitha.: ");
             int num = int.Parse(Console.ReadLine());
             int total = 0;
             while (num > 0)
